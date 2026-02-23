@@ -1,2 +1,11 @@
-# ecommerce-funnel-analysis-bigquery
-E-commerce funnel and revenue analysis using BigQuery SQL, identifying conversion bottlenecks, marketing efficiency, and retention opportunities.
+E-Commerce Funnel and Revenue Analysis (BigQuery)
+
+This project analyzes e-commerce user behavior and revenue performance using Google BigQuery. The objective was to evaluate sales funnel efficiency, identify where users drop off, assess marketing channel performance, and determine whether customer acquisition efforts are financially sustainable. The analysis was conducted on event-level user data covering the last 30 days, including page views, add to cart actions, checkout starts, payment information submissions, and completed purchases.
+
+Using SQL in BigQuery, I calculated funnel stage counts and conversion rates between each stage to measure overall performance. The analysis showed an overall conversion rate of approximately 17 percent, with a strong checkout-to-purchase conversion rate of around 80 percent, indicating that the payment process is technically efficient and not a major friction point. I further segmented the funnel by traffic source to compare marketing channel effectiveness and found that while social media drives high traffic volume, it converts at a lower rate compared to email, which demonstrates stronger purchase intent.
+
+In addition to funnel performance, I analyzed revenue metrics including total revenue, total buyers, average order value, revenue per visitor, and revenue per buyer. Time-to-conversion analysis was also performed to understand how long users take to move from initial visit to purchase. A key finding was the absence of repeat purchases during the observed period, highlighting a significant opportunity to improve customer retention and increase lifetime value.
+
+Based on the findings, the primary recommendation is to focus on retention strategies rather than redesigning the checkout experience, which is already performing well. Marketing spend should be optimized by prioritizing high-intent channels such as email and refining social strategies toward retargeting rather than broad traffic acquisition. Monitoring customer acquisition cost relative to average order value is also critical to ensure profitable growth.
+
+This project demonstrates advanced SQL querying in BigQuery, funnel modeling, revenue analysis, marketing performance evaluation, and the ability to translate technical insights into strategic business recommendations.
